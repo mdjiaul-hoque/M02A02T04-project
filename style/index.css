@@ -141,7 +141,76 @@ header>section , main>section{
 }
 .our-plants-section h2{}
 .our-plants-section p{}
-.our-plants-section .our-plants-card{}
+.our-plants-section .our-plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 .our-plants-section .our-plants-cards .our-plant-card{}
+/* .our-plants-section .our-plants-cards .our-plant-card .btn{
+    width: 100%;
+    display: block;
+} */
 .our-plants-section .our-plants-cards .our-plant-card .plant-card-text{}
 .our-plants-section .our-plants-cards .our-plant-card .plant-card-text p{}
+
+
+
+/* Flower and Plants Lover-section */
+.plants-lover-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.plants-lover-section .plants-lover-image{
+    max-width: 50%;
+}
+.plants-lover-section .plants-lover-text{
+    max-width: 50%;
+}
+.plants-lover-section .plants-lover-text h3{}
+.plants-lover-section .plants-lover-text ul{}
+.plants-lover-section .plants-lover-text ul li{}
+
+
+
+/* colorful-banch-section */
+.colorful-banch-section{
+    background: url("../assets/news-letter-bg.png");
+    max-width: 100%;
+    height: 533px;
+    text-align: center;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.colorful-banch-section div{
+    background-color:transparent;
+    /* background-color:none; */
+}
+.colorful-banch-section div h4{
+    background-color: transparent;
+    color: #fff;
+    /* font-size: 3.125rem; */
+    
+
+}
+.colorful-banch-section div input {
+    /* border: none ; */
+    max-width: 544px;
+    width: 100%;
+    padding: 8px 20px;
+    border: none;
+    
+}
+.colorful-banch-section div  button {
+
+    padding: 8px 20px;
+    border: none;
+    
+    
+    
+}
