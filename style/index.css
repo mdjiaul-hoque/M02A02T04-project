@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
+    background: rgb(245, 248, 255);
+}
+
+:root{
+    --primary-color1: rgb(0, 0, 0) ;
+    --primary-color2:  rgb(233, 90, 8) ;
+    --secondary-color: rgba(0, 0, 0, 0.5);
+    --primary-weight:700;
+    --primary-size: 4.0625rem;
+    --secondary-size: 1.375rem;
+    --primary-font:"Noto Serif", serif;
+    --secondary-font: "Inter", sans-serif;
+   
+
+}
+
+.paragrap{
+    color: var(--secondary-color);
+    font-size: var(--secondary-size);
+    font-family: var(--secondary-font);
+}
+ .headline-primary{
+    font-size: var(--primary-size);
+    font-weight: var(--primary-weight);
+    color:var(--primary-color1);
+    /* line-height: var(--primary-size);     */
+    font-family: var(--primary-font);
+}
+.headline-span{
+    color: var(--primary-color2);
+    font-family: var(--primary-font);
+    
+}
+.btn{
+    color: #fff;
+    background-color: var(--primary-color2);
+    font-family: var(--secondary-font);
+    padding: 26px 50px 26px 50px;
+    font-weight: 600;
+    border: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* Header */
+header>section , main>section{
+    max-width: 1140px;
+    margin: 10px auto;
+    margin-bottom: 90px;
+}
+/* Navigation-section */
+
+.navigation-section{
+}
+
+.navigation-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-section nav img{
+    width: 135px;
+    height: 82px;
+}
+.navigation-section nav ul{
+    display: flex;
+    
+}
+.navigation-section nav ul li{
+    list-style: none;
+    padding-right: 20px ;
+    font-family: var(--secondary-font);
+}
+.navigation-section nav ul li a{
+    text-decoration: none;
+}
+
+.navigation-section nav ul li a:nth-child(2) ,
+.navigation-section nav ul li a:nth-child(3) {
+  color: rgb(137, 135, 161);
+  
+}
+
+.navigation-section nav ul li a:nth-child(1) ,
+.navigation-section nav ul li a:nth-child(4) {
+   color: rgb(37, 36, 50);
+   font-weight: var(--primary-weight);
+   
+}
+
+
+/* Banner-section */
+
+.banner-section { 
+    display: flex;
+    align-items: end;
+}
+.banner-section .banner-text{
+    max-width: 50%;
+}
+
+/* .banner-section .banner-text h1{
+    font-size: var(--primary-size);
+    font-weight: var(--primary-weight);
+    color:var(--primary-color1);
+    line-height: var(--primary-size);    
+    font-family: var(--primary-font);
+} */
+/* .banner-section .banner-text h1 span{
+    color: var(--primary-color2);
+    font-family: var(--primary-font);
+    
+} */
+/* .banner-section .banner-text p{
+    color: var(--secondary-color);
+    font-size: var(--secondary-size);
+    font-family: var(--secondary-font);
+} */
+
+.banner-section .banner-image {
+    max-width: 50%;
+}
+
+
+/* Mani */
+/* Our-Plants-section */
+.our-plants-section{
+    text-align: center;
+}
+.our-plants-section h2{}
+.our-plants-section p{}
+.our-plants-section .our-plants-card{}
+.our-plants-section .our-plants-cards .our-plant-card{}
+.our-plants-section .our-plants-cards .our-plant-card .plant-card-text{}
+.our-plants-section .our-plants-cards .our-plant-card .plant-card-text p{}
