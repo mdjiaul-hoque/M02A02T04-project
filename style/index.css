@@ -146,6 +146,9 @@ header>section , main>section ,footer>section{
     
 }
 
+.our-plants-section h2{
+    font-size: 3.125rem;
+}
 .our-plants-section>p{
     margin: 7px 0 40px 0;
 }
@@ -214,7 +217,7 @@ header>section , main>section ,footer>section{
     max-width: 50%;
 }
 .plants-lover-section .plants-lover-text h3{
-    /* font-size: 50px; */
+    font-size: 3.125rem;
     line-height: var(--primary-size);
     margin-bottom: 20px;
 }
@@ -226,6 +229,9 @@ header>section , main>section ,footer>section{
 /* Latest Deals-section */
 .latest-deals-section{
  text-align: center;
+}
+.latest-deals-section h4{
+    font-size: 3.125rem;
 }
 .latest-deals-section p{
   margin: 15px 0 60px 0;
@@ -266,7 +272,7 @@ header>section , main>section ,footer>section{
 .latest-deals-section .latest-deals-images .fst-row .latest-image1 h6{
     background:transparent;
     font-family: Noto Serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     
 }
@@ -274,6 +280,8 @@ header>section , main>section ,footer>section{
     background: transparent ;
     color: #fff;
     text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 0 ; 
 }
 
@@ -296,7 +304,7 @@ header>section , main>section ,footer>section{
 .latest-deals-section .latest-deals-images .fst-row .latest-image2 h6{
     background:transparent;
     font-family: Noto Serif;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
 line-height: 27px;
 }
@@ -304,6 +312,8 @@ line-height: 27px;
     background: transparent ;
     color: #fff;
     text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 0 ; 
 }
 
@@ -325,7 +335,7 @@ line-height: 27px;
     background:transparent;
     color: #fff;
     font-family: Noto Serif;
-font-size: 32px;
+font-size: 2rem;
 font-weight: 700;
 line-height: 27px;
 }
@@ -333,7 +343,8 @@ line-height: 27px;
     background: transparent ;
     color: #fff;
     text-decoration: underline;
-    /* border: 1px solid red;    */
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 0 ;    
 }
 
@@ -361,7 +372,7 @@ line-height: 27px;
 .colorful-banch-section div h4{
     background-color: transparent;
     color: #fff;
-    /* font-size: 3.125rem; */
+    font-size: 3.125rem;
     
 
 }
@@ -384,7 +395,7 @@ line-height: 27px;
     
 }
 .colorful-banch-section .ip{
-    margin-left: 50px;
+    margin-left: 18px;
 }
 
 .colorful-banch-section .ip{
