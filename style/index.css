@@ -52,23 +52,24 @@ img{
     max-width: 100%;
 }
 
-
-
-/* Header */
 header>section , main>section ,footer>section{
     max-width: 1140px;
     margin: 10px auto;
     margin-bottom: 100px;
 }
-/* Navigation-section */
 
-.navigation-section{
-}
+
+
+
+
+/* Header */
+/* Navigation-section */
 
 .navigation-section nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .navigation-section nav img{
     width: 135px;
@@ -76,6 +77,7 @@ header>section , main>section ,footer>section{
 }
 .navigation-section nav ul{
     display: flex;
+    align-items: center;
     
 }
 .navigation-section nav ul li{
@@ -87,17 +89,19 @@ header>section , main>section ,footer>section{
     text-decoration: none;
 }
 
-.navigation-section nav ul li a:nth-child(2) ,
-.navigation-section nav ul li a:nth-child(3) {
-  color: rgb(137, 135, 161);
-  
-}
 
 .navigation-section nav ul li a:nth-child(1) ,
 .navigation-section nav ul li a:nth-child(4) {
    color: rgb(37, 36, 50);
    font-weight: var(--primary-weight);
    
+}
+
+.navigation-section nav ul .li2 .a2{
+    color: rgb(137, 135, 161);
+}
+.navigation-section nav ul .li3 .a3{
+    color: rgb(137, 135, 161);
 }
 
 
@@ -213,7 +217,7 @@ header>section , main>section ,footer>section{
     line-height: var(--primary-size);
     margin-bottom: 20px;
 }
-.plants-lover-section .plants-lover-text ul{}
+
 .plants-lover-section .plants-lover-text ul li{
     margin-bottom: 10px;
 }
@@ -237,9 +241,7 @@ header>section , main>section ,footer>section{
 .latest-deals-section .latest-deals-images .latest-image img{
   border-radius: 30px;
 }
-.latest-deals-section .latest-deals-images .fst-row{
- 
-}
+
 
 
 
@@ -353,7 +355,8 @@ line-height: 27px;
     
 
 }
-.colorful-banch-section div input {
+
+.colorful-banch-section div .ip input {
     /* border: none ; */
     max-width: 544px;
     width: 100%;
@@ -361,13 +364,21 @@ line-height: 27px;
     border: none;
     
 }
-.colorful-banch-section div  button {
+.colorful-banch-section .ip  button {
 
     padding: 8px 20px;
     border: none;
+    margin-left: -10px;
     
     
     
+}
+.colorful-banch-section .ip{
+    margin-left: 50px;
+}
+
+.colorful-banch-section .ip{
+    display: flex;
 }
 
 
@@ -428,3 +439,136 @@ line-height: 27px;
     gap: 32px;
     
 }
+
+
+
+
+/* responsive */
+
+/* for mobaile */
+
+@media screen and (max-width:576px){
+
+    header>section , main>section ,footer>section{
+    max-width: 540px;
+    margin: 5px auto;
+    margin-bottom: 50px;
+}
+
+  .navigation-section .li1 , .li2 , .li3{
+    display: none;
+  }  
+
+
+
+    .banner-section{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        /* align-items: end; */
+    }
+      .banner-section .banner-text{ 
+    max-width: 100%;
+}
+    .banner-section .banner-image{
+        /* width: 100%;
+        width: 393.18px;
+    height: 245px; */
+    }
+    .banner-section .banner-image img{
+        width: 100%;
+    }
+    .banner-section .banner-text{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+
+    .our-plants-section .our-plants-cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.plants-lover-section .rewoard {
+    display: none;
+   
+}
+.plants-lover-section .plants-lover-section-container   {
+    flex-direction: column;
+   
+}
+.plants-lover-section .plants-lover-section-container .plants-lover-text h3{
+    /* font-size: 24px; */
+    
+}
+
+.plants-lover-section .plants-lover-text{
+    max-width: 90%;
+}
+
+
+.latest-deals-section .latest-deals-images .fst-row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.latest-deals-section .latest-deals-images .fst-row .latest-image1{
+    
+    width: 100%;
+}
+.latest-deals-section .latest-deals-images .fst-row .latest-image2{
+   background: ;
+    width: 100%;
+}
+.latest-deals-section .latest-deals-images{
+    display: flex;
+    flex-direction: column;
+}
+.latest-deals-section .latest-deals-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.colorful-banch-section .ip{
+    margin: 40px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
+   
+}
+.footer .footer23 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    gap: 50px;
+    
+}
+.footer .footer2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 70px;
+}
+
+.footer .footer3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+
+
+
+} 
+    
