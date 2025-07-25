@@ -464,18 +464,17 @@ line-height: 27px;
         display: flex;
         flex-direction: column-reverse;
         max-width: 100%;
-        /* align-items: end; */
+
     }
-      .banner-section .banner-text{ 
-    max-width: 100%;
-}
-.banner-section .banner-image {
-    max-width: 100%;
-}
+    .banner-section .banner-image {
+        max-width: 100%;
+    }
     
-    .banner-section .banner-image img{
-        width: 100%;
-    }
+    .banner-section .banner-text{ 
+  /* max-width: 100%; */
+   max-width: 540px;
+   margin: auto;
+}
     .banner-section .banner-text{
         display: flex;
         flex-direction: column;
@@ -491,9 +490,7 @@ line-height: 27px;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
-/* .plants-lover-section{
-    margin-top: 50px ;
-} */
+        
 .plants-lover-section .rewoard {
     
     visibility: hidden; 
@@ -502,10 +499,7 @@ line-height: 27px;
     flex-direction: column;
    
 }
-.plants-lover-section .plants-lover-section-container .plants-lover-text h3{
-    /* font-size: 24px; */
-    
-}
+
 
 .plants-lover-section .plants-lover-text{
     max-width: 90%;
@@ -519,9 +513,10 @@ line-height: 27px;
 }
 
 .latest-deals-section .latest-deals-images .fst-row .latest-image1{
-    
     width: 100%;
+    background-size: 100%;
 }
+
 .latest-deals-section .latest-deals-images .fst-row .latest-image2{
     width: 100%;
     background-size: 100%;
@@ -530,15 +525,16 @@ line-height: 27px;
     display: flex;
     flex-direction: column;
 }
-.latest-deals-section .latest-deals-images{
+
+.latest-deals-section .latest-deals-images .row2{
+    width: 100%;
+    height: 177px;
+    max-width: 100%;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
-}
-.latest-deals-section .latest-deals-images .row2{
-    background-size: 100% 100%;
-    background-size: cover;
-    
-
+    align-items: center;
+    justify-content: center;
 }
 
 
