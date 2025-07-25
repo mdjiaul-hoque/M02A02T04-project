@@ -145,7 +145,7 @@ header>section , main>section ,footer>section{
     margin-bottom: 180px ;
     
 }
-.our-plants-section h2{}
+
 .our-plants-section>p{
     margin: 7px 0 40px 0;
 }
@@ -154,7 +154,10 @@ header>section , main>section ,footer>section{
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
-.our-plants-section .our-plants-cards .our-plant-card{}
+.our-plants-section .our-plants-cards .our-plant-card{
+    max-width: 100%;
+    margin-bottom: 5px;
+}
 
 .our-plants-section .our-plants-cards .our-plant-card .plant-card-text{
     margin: 20px 0;
@@ -168,11 +171,9 @@ header>section , main>section ,footer>section{
 }
 .our-plants-section .our-plants-cards .our-plant-card button{
 
- /* padding: 26px 50px 26px 50px; */
     width: 100%;
 }
 
-.our-plants-section .our-plants-cards .our-plant-card .plant-card-text{}
 
 
 
@@ -356,7 +357,7 @@ line-height: 27px;
 }
 
 .colorful-banch-section div .ip input {
-    /* border: none ; */
+    border: none ;
     max-width: 544px;
     width: 100%;
     padding: 8px 20px;
@@ -389,7 +390,7 @@ line-height: 27px;
     align-items: start;
      margin-bottom: 40px;
 }
-.footer .footer1{}
+
 
 .footer .footer23{
     display: flex;
@@ -450,8 +451,8 @@ line-height: 27px;
 
     header>section , main>section ,footer>section{
     max-width: 540px;
-    margin: 5px auto;
-    margin-bottom: 50px;
+    margin: 10px auto;
+    margin-bottom: 80px;
 }
 
   .navigation-section .li1 , .li2 , .li3{
@@ -471,7 +472,6 @@ line-height: 27px;
     }
     
     .banner-section .banner-text{ 
-  /* max-width: 100%; */
    max-width: 540px;
    margin: auto;
 }
@@ -484,16 +484,16 @@ line-height: 27px;
 
 
      .our-plants-section{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
      }
     .our-plants-section .our-plants-cards{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
-        
+
 .plants-lover-section .rewoard {
-    
-    visibility: hidden; 
+
+    display: none;
 }
 .plants-lover-section .plants-lover-section-container   {
     flex-direction: column;
@@ -538,11 +538,10 @@ line-height: 27px;
 }
 
 
-
-
-
 .colorful-banch-section .ip{
-    margin: 40px;
+    width: 500px;
+    margin: auto;
+    
 }
 
 
@@ -561,7 +560,6 @@ line-height: 27px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    text-align: center;
     gap: 50px;
     
 }
@@ -574,10 +572,7 @@ line-height: 27px;
 
 .footer .footer3 {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    
-   
+    justify-content: center; 
 }
 
 
