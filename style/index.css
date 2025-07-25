@@ -488,6 +488,13 @@ line-height: 27px;
         max-width: 100%;
 
     }
+    .banner-section h1{
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+    .banner-section p{
+        font-size: .875rem;
+    }
     .banner-section .banner-image {
         max-width: 100%;
     }
@@ -507,14 +514,41 @@ line-height: 27px;
      .our-plants-section{
         margin-bottom: 100px;
      }
+     .our-plants-section h2{
+        font-size: 1.5rem;
+     }
+     .our-plants-section p{
+        font-size: .875rem;
+     }
     .our-plants-section .our-plants-cards{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+.our-plants-section .our-plants-cards .our-plant-card .plant-card-text p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.our-plants-section .our-plants-cards .our-plant-card .plant-card-text h6{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.our-plants-section .our-plants-cards .our-plant-card button{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
 
 .plants-lover-section .rewoard {
-
-    display: none;
+  display: none;
+}
+.plants-lover-section .plants-lover-text h3 {
+    font-size: 1.5rem;
+}
+.plants-lover-section .plants-lover-text ul li{
+    font-size: .875rem;
 }
 .plants-lover-section .plants-lover-section-container   {
     flex-direction: column;
@@ -527,6 +561,15 @@ line-height: 27px;
 }
 
 
+
+
+.latest-deals-section h4{
+    font-size: 1.5rem;
+}
+.latest-deals-section p{
+    font-size: .875rem;
+}
+
 .latest-deals-section .latest-deals-images .fst-row{
     display: flex;
     flex-direction: column;
@@ -537,11 +580,28 @@ line-height: 27px;
     width: 100%;
     background-size: 100%;
 }
+.latest-deals-section .latest-deals-images .fst-row .latest-image1 h6{
+    font-size: 1.25rem;
+    
+}
+.latest-deals-section .latest-deals-images .fst-row .latest-image1 p{
+    font-size: 1rem;
+    
+}
 
 .latest-deals-section .latest-deals-images .fst-row .latest-image2{
     width: 100%;
     background-size: 100%;
 }
+.latest-deals-section .latest-deals-images .fst-row .latest-image2 h6{
+    font-size: 1.25rem;
+    
+}
+.latest-deals-section .latest-deals-images .fst-row .latest-image2 p{
+    font-size: 1rem;
+    
+}
+
 .latest-deals-section .latest-deals-images{
     display: flex;
     flex-direction: column;
@@ -558,7 +618,19 @@ line-height: 27px;
     justify-content: center;
 }
 
+.latest-deals-section .latest-deals-images .row2 h6{
+    font-size: 1.25rem;
+    
+}
+.latest-deals-section .latest-deals-images .row2 p{
+    font-size: 1rem;
+    
+}
 
+
+.colorful-banch-section h4{
+    font-size: 1.25rem;
+}
 .colorful-banch-section .ip{
     width: 500px;
     margin: auto;
@@ -576,12 +648,21 @@ line-height: 27px;
     margin-bottom: 50px;
    
 }
+.footer .footer1 p {
+    font-size: .875rem;
+}
 .footer .footer23 {
     display: flex;
     flex-direction: column;
     /* margin: auto; */
     gap: 50px;
     
+}
+.footer .footer23 .footer21 ul li{
+    font-size: 1rem;
+}
+.footer .footer23 .footer22 ul li{
+    font-size: 1rem;
 }
 .footer .footer2 {
     display: flex;
