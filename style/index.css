@@ -274,6 +274,7 @@ header>section , main>section ,footer>section{
     background: transparent ;
     color: #fff;
     text-decoration: underline;
+    margin-bottom: 0 ; 
 }
 
 
@@ -303,6 +304,7 @@ line-height: 27px;
     background: transparent ;
     color: #fff;
     text-decoration: underline;
+    margin-bottom: 0 ; 
 }
 
 
@@ -331,6 +333,8 @@ line-height: 27px;
     background: transparent ;
     color: #fff;
     text-decoration: underline;
+    /* border: 1px solid red;    */
+    margin-bottom: 0 ;    
 }
 
 
@@ -533,12 +537,13 @@ line-height: 27px;
 }
 
 .latest-deals-section .latest-deals-images .row2{
+    
     width: 366.22px;
     height: 206px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
