@@ -244,11 +244,10 @@ header>section , main>section ,footer>section{
 
 
 
-
 .latest-deals-section .latest-deals-images {
-    color: #fff;
-    
+    color: #fff;   
 }
+
 .latest-deals-section .latest-deals-images .fst-row .latest-image1{
     background:url("../assets/deal-bloom.png");
     width: 366.22px;
@@ -485,14 +484,20 @@ line-height: 27px;
 
     }
 
+
+     .our-plants-section{
+        margin-bottom: 50px;
+     }
     .our-plants-section .our-plants-cards{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
-
+/* .plants-lover-section{
+    margin-top: 50px ;
+} */
 .plants-lover-section .rewoard {
-    display: none;
-   
+    
+    visibility: hidden; 
 }
 .plants-lover-section .plants-lover-section-container   {
     flex-direction: column;
@@ -513,6 +518,7 @@ line-height: 27px;
     flex-direction: column;
     width: 100%;
 }
+
 .latest-deals-section .latest-deals-images .fst-row .latest-image1{
     
     width: 100%;
