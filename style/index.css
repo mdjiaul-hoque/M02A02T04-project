@@ -90,18 +90,18 @@ header>section , main>section ,footer>section{
 }
 
 
-.navigation-section nav ul li a:nth-child(1) ,
-.navigation-section nav ul li a:nth-child(4) {
+.navigation-section nav ul .li1 .a1{
    color: rgb(37, 36, 50);
    font-weight: var(--primary-weight);
-   
 }
-
 .navigation-section nav ul .li2 .a2{
     color: rgb(137, 135, 161);
 }
 .navigation-section nav ul .li3 .a3{
     color: rgb(137, 135, 161);
+}
+.navigation-section nav ul .li4 .a4{
+    color: rgb(37, 36, 50);
 }
 
 
