@@ -463,17 +463,16 @@ line-height: 27px;
     .banner-section{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        max-width: 100%;
         /* align-items: end; */
     }
       .banner-section .banner-text{ 
     max-width: 100%;
 }
-    .banner-section .banner-image{
-        /* width: 100%;
-        width: 393.18px;
-    height: 245px; */
-    }
+.banner-section .banner-image {
+    max-width: 100%;
+}
+    
     .banner-section .banner-image img{
         width: 100%;
     }
@@ -524,8 +523,8 @@ line-height: 27px;
     width: 100%;
 }
 .latest-deals-section .latest-deals-images .fst-row .latest-image2{
-   background: ;
     width: 100%;
+    background-size: 100%;
 }
 .latest-deals-section .latest-deals-images{
     display: flex;
@@ -535,10 +534,21 @@ line-height: 27px;
     display: flex;
     flex-direction: column;
 }
+.latest-deals-section .latest-deals-images .row2{
+    background-size: 100% 100%;
+    background-size: cover;
+    
+
+}
+
+
+
+
 
 .colorful-banch-section .ip{
     margin: 40px;
 }
+
 
 /* footer */
 
