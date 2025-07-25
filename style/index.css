@@ -628,6 +628,12 @@ line-height: 27px;
     
 }
 
+.latest-deals-section .latest-deals-images{
+ gap: 15px;
+}
+
+
+
 
 .colorful-banch-section h4{
     font-size: 1.25rem;
