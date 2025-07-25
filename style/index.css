@@ -55,7 +55,7 @@ img{
 
 
 /* Header */
-header>section , main>section{
+header>section , main>section ,footer>section{
     max-width: 1140px;
     margin: 10px auto;
     margin-bottom: 90px;
@@ -167,9 +167,15 @@ header>section , main>section{
 .plants-lover-section .plants-lover-text{
     max-width: 50%;
 }
-.plants-lover-section .plants-lover-text h3{}
+.plants-lover-section .plants-lover-text h3{
+    /* font-size: 50px; */
+    line-height: var(--primary-size);
+    margin-bottom: 20px;
+}
 .plants-lover-section .plants-lover-text ul{}
-.plants-lover-section .plants-lover-text ul li{}
+.plants-lover-section .plants-lover-text ul li{
+    margin-bottom: 10px;
+}
 
 
 
@@ -212,5 +218,64 @@ header>section , main>section{
     border: none;
     
     
+    
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    gap: 110px;
+    align-items: start;
+     margin-bottom: 40px;
+}
+.footer .footer1{}
+
+.footer .footer23{
+    display: flex;
+    gap: 110px;
+    max-width: 75%;
+    width: 100%;
+}
+.footer .footer2{
+    display: flex;
+    gap: 110px;
+}
+.footer .footer23 .footer2 .footer21{}
+.footer .footer23 .footer2 .footer21 ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 20px;
+}
+.footer .footer23 .footer2 .footer22 ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 20px;
+}
+.footer .footer23 .footer2 .footer21 ul li{
+    list-style: none;
+}
+.footer .footer23 .footer2 .footer21 ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.footer .footer23 .footer2 .footer22 ul li{
+    list-style: none;
+     
+}
+.footer .footer23 .footer2 .footer22 ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    
+}
+
+
+
+.footer .footer3{
+    display: flex;
+    gap: 32px;
     
 }
