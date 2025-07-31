@@ -354,6 +354,7 @@ line-height: 27px;
 /* colorful-banch-section */
 .colorful-banch-section{
     background: url("../assets/news-letter-bg.png");
+    background-size: cover;
     max-width: 100%;
     height: 533px;
     text-align: center;
